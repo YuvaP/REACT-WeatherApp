@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/REACT-WeatherApp/static/css/main.6e5ee8d1.css",
+    "main.js": "/REACT-WeatherApp/static/js/main.753e49f1.js",
+    "static/media/yetiman2.png": "/REACT-WeatherApp/static/media/yetiman2.e69ddf6cf6815d22fea2.png",
+    "index.html": "/REACT-WeatherApp/index.html",
+    "main.6e5ee8d1.css.map": "/REACT-WeatherApp/static/css/main.6e5ee8d1.css.map",
+    "main.753e49f1.js.map": "/REACT-WeatherApp/static/js/main.753e49f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e5ee8d1.css",
+    "static/js/main.753e49f1.js"
+  ]
+}
