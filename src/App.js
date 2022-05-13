@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Weather from './Weather';
+import yetiman2 from "./images/yetiman2.png";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='mainheading'>
+    <div className="myimg"><img src={yetiman2} height='90' width='90'/></div>
+    <div className="heading_style"><h1>Yuva Weather App. </h1></div>
+    
     </div>
-  );
+    
+    <Weather />
+    </>
+  )
 }
 
 export default App;
