@@ -57,7 +57,7 @@ const WeatherCard = ({newWeatherInfo}) => {
 {/*<div className='currentData'><span className= 'dataStyle'><h4>Current Date</h4> </span> {}</div>*/}
                      
             <div className='currentData'><span className= 'dataStyle'><h4>Location </h4> </span> {place}</div>
-            <div className='currentData'> <span className= 'dataStyle'><h4>Temperature </h4> </span> {temp}&deg;C</div>
+            <div className='currentData'> <span className= 'dataStyle'><h4>Temperature </h4> </span> {temp}&deg;F</div>
             <div className='currentData'><span className= 'dataStyle'><h4>Humidity </h4> </span> {humidity}</div>
             <div className='currentData'><span className= 'dataStyle'><h4>Pressure </h4> </span> {pressure}</div>
           </div>
@@ -65,8 +65,8 @@ const WeatherCard = ({newWeatherInfo}) => {
         
           <div className='weatherInfo'>
               
-            <div className='currentData1'><span className= 'dataStyle'><h4>MinTemp</h4> </span>  {temp_min}&deg;C </div>
-            <div className='currentData1'><span className='dataStyle'> <h4>MaxTemp</h4> </span> {temp_max}&deg;C</div>
+            <div className='currentData1'><span className= 'dataStyle'><h4>MinTemp</h4> </span>  {temp_min}&deg;F </div>
+            <div className='currentData1'><span className='dataStyle'> <h4>MaxTemp</h4> </span> {temp_max}&deg;F</div>
             <div className='currentData1'><span className='dataStyle'> <h4>WindSpeed</h4> </span> {speed}</div>
             <div className='currentData1'><span className='dataStyle'> <h4>Observation</h4> </span> {weathermood}</div>
           </div>
